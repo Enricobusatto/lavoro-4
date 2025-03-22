@@ -1,0 +1,82 @@
+header {
+    display: flex;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+body {
+    margin-left: 70px;
+}
+.logo img {
+    width: 100px;
+    height: 100%;
+    margin-left: 70px;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin-right: 70px;
+}
+.btn {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+.nav i, button, p {
+    margin: 10px;
+}
+#login {
+    background-color: orange;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: auto;
+    text-align: center;
+}
+.title-page {
+    margin-top: 40px;
+    display: flex;
+    font-size: 15px;
+
+}
+
+#FOLLOWING {
+    color: rgb(197, 190, 190);
+    margin-right: 15px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+ hr{
+    width: 60%vh;
+    border: solid 0.5px rgba(197, 190, 190, 0.55);
+    margin: 0;
+}   
+.user-content img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+.user-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+}
+.content {
+    display: flex;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidebar {
+    width: 40%vh;
+    height: 100vh;
+}
