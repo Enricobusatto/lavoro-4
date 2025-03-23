@@ -72,9 +72,10 @@ hr{
     margin: 30px;
 }
 .container {
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: column;
+    padding-right: 30px;
 }
 
 .image {
@@ -88,6 +89,7 @@ main {
     justify-content: space-between;
 }
 .side-bar {
+    width: 650px;
     display: flex;
     height: auto;
     border-left: solid 0.5px rgba(197, 190, 190, 0.55); padding: 40px;
@@ -122,6 +124,8 @@ main {
     border-radius: 30px; 
     margin: 10px;
     margin-bottom: 30px;
+    justify-content: center;
+
 }
 .connect p {
     display: flex;
@@ -151,4 +155,42 @@ main {
     border-radius: 40px;
     margin: 5px;
     
+}
+.who-to-follow img  {
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit:cover;
+    
+}
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.follow :nth-child(1) {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.btn{
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 20px; 
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+}
+.btn span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.person {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0px;
+    justify-content: center;
 }
